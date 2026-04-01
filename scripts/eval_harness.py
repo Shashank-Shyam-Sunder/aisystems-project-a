@@ -212,13 +212,16 @@ def run_eval(save_baseline=False):
 
     dataset = load_golden_dataset()
     results = []
+    total = len(dataset)
 
-    for entry in dataset:
+    for index, entry in enumerate(dataset, start=1):
         query = entry["query"]
         category = entry["category"]
         expected_answer = entry["expected_answer"]
         expected_source = entry["expected_source"]
         item_id = entry["id"]
+
+        print(f"[{index}/{total}] Processing {item_id} | category={category} | save_baseline={save_baseline}")
 
         response = ask(query)
         answer = response["answer"]
@@ -246,6 +249,8 @@ def run_eval(save_baseline=False):
             "correctness_reason": correctness["reason"],
             "trace_id": trace_id,
         })
+
+        print(f"Completed {item_id}")
 
     output_path = os.path.join(SCRIPT_DIR, "eval_results.json")
     with open(output_path, "w") as f:
@@ -336,9 +341,16 @@ def run_stratified_eval(results):
 
 
 if __name__ == "__main__":
-    print("Eval harness skeleton loaded.")
-    print("Functions to implement: check_retrieval_hit, calculate_mrr,")
-    print("judge_faithfulness, judge_correctness, run_eval")
+    # print("Eval harness skeleton loaded.")
+    # print("Functions to implement: check_retrieval_hit, calculate_mrr,")
+    # print("judge_faithfulness, judge_correctness, run_eval")
     # print("\nWe'll build these together in Session 1.")
-    run_eval()
 
+    import argparse
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--save-baseline", action="store_true")
+    args = parser.parse_args()
+
+    print(f"Starting eval harness (save_baseline={args.save_baseline})")
+    run_eval(save_baseline=args.save_baseline)

@@ -5,14 +5,14 @@
     "category": "returns",
     "expected_source": "01_return_policy.md",
     "expected_answer": "The standard return window is 30 calendar days from the delivery date.",
-    "answer": "The standard return window for products purchased from Acmera is 30 calendar days from the delivery date. The return window begins on the date the item is marked as delivered by the shipping carrier.",
+    "answer": "The standard return window for products purchased from Acmera is 30 calendar days from the delivery date.",
     "retrieval_hit": true,
     "mrr": 0.2,
-    "faithfulness_score": 3,
-    "faithfulness_reason": "The answer correctly states the standard return window of 30 days, but it does not mention the extended return windows for Premium members, which are relevant to the context.",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "The answer accurately reflects the context that states all products purchased from Acmera are eligible for return within 30 calendar days from the delivery date.",
     "correctness_score": 5,
-    "correctness_reason": "The answer matches the expected answer exactly in terms of the return window duration and the reference to the delivery date.",
-    "trace_id": "75d1d323-1973-4942-80ce-241aa5b37566"
+    "correctness_reason": "The answer matches the expected answer semantically and provides the same information.",
+    "trace_id": "c65198be-cceb-473d-af4e-6353e98ba35e"
   },
   {
     "id": "q02",
@@ -24,10 +24,10 @@
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "The answer accurately reflects the context that Acmera does not offer international shipping and provides additional relevant information about third-party forwarding services.",
+    "faithfulness_reason": "The answer accurately reflects the context that Acmera does not offer international shipping and provides additional relevant details about third-party forwarding services.",
     "correctness_score": 3,
-    "correctness_reason": "The answer is mostly correct but includes additional information about customs duties and risks that is not present in the expected answer.",
-    "trace_id": "0028a408-cdc7-41c7-a439-338df8c13434"
+    "correctness_reason": "The answer is mostly correct but includes additional information about customs duties and delays that is not present in the expected answer.",
+    "trace_id": "f3933fe9-cb88-42e1-94a7-ff18e97ec679"
   },
   {
     "id": "q03",
@@ -39,10 +39,10 @@
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "The answer accurately reflects the information provided in the context regarding the warranty for Acmera electronics, including the duration and coverage details.",
+    "faithfulness_reason": "The answer accurately reflects the information provided in the context regarding the 1-year manufacturer warranty and what it covers.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "53266ea7-c384-4b45-b914-88052dd1b29f"
+    "trace_id": "76eed60d-2ac5-4449-9b39-3177daeedeff"
   },
   {
     "id": "q04",
@@ -57,7 +57,7 @@
     "faithfulness_reason": "The answer is explicitly supported by the context, which states that the spending threshold for Premium Gold status is \u20b975,000 in a calendar year.",
     "correctness_score": 3,
     "correctness_reason": "The answer provides the spending threshold but omits the information about maintaining Premium Silver for 3+ consecutive years.",
-    "trace_id": "bf54b584-1246-4617-a9c2-57e8ebe9c26a"
+    "trace_id": "2043fc79-e793-421d-b5a0-928bee9c8289"
   },
   {
     "id": "q05",
@@ -65,14 +65,14 @@
     "category": "returns",
     "expected_source": "01_return_policy.md",
     "expected_answer": "Opened software, digital downloads, gift cards, perishable goods, and personalized items cannot be returned.",
-    "answer": "The following items cannot be returned:\n\n1. Opened software, digital downloads, and gift cards.\n2. Perishable goods.\n3. Customized items.\n4. Items that show signs of wear, damage, or modification.\n5. Electronics that are opened (unless you are a Premium member and the item is in functional condition with all original accessories).\n6. Clearance items marked as \"Final Sale.\" \n\nAdditionally, for corporate orders, customized items cannot be returned, and refunds are processed to the corporate account, not to individual recipients.",
+    "answer": "The following items cannot be returned:\n\n1. Opened software and digital downloads.\n2. Gift cards.\n3. Perishable goods.\n4. Personalized items.\n5. Customized items (for corporate orders).\n6. Items marked as \"Final Sale\" during promotional events.\n\nAdditionally, products that show signs of wear, damage, or modification are not eligible for standard returns.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided, detailing the items that cannot be returned.",
+    "faithfulness_reason": "Every claim made in the answer is explicitly supported by the context provided, detailing the items that cannot be returned.",
     "correctness_score": 3,
-    "correctness_reason": "The answer includes additional details and items not mentioned in the expected answer, making it partially correct but incomplete.",
-    "trace_id": "d19dabfd-31c8-4255-abcb-daf84540bdf7"
+    "correctness_reason": "The answer includes additional items and details not present in the expected answer, making it partially correct but incomplete.",
+    "trace_id": "6741dff2-922b-4db9-bb04-40f14354c157"
   },
   {
     "id": "q06",
@@ -87,7 +87,7 @@
     "faithfulness_reason": "The answer is explicitly supported by the context, which states that items purchased between November 15 and December 31 have an extended return window until January 31 of the following year.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in meaning and detail.",
-    "trace_id": "e842d373-4cc3-4b9a-9c64-40f8900fe76e"
+    "trace_id": "aad03338-734c-4a88-9a20-1d316697cc9b"
   },
   {
     "id": "q07",
@@ -102,7 +102,7 @@
     "faithfulness_reason": "Every claim in the answer is explicitly supported by the context regarding the condition of electronics for standard returns.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "5490e168-ee4f-4065-bb38-ad0dd945740d"
+    "trace_id": "b277107b-65c3-463d-be98-624e11d79742"
   },
   {
     "id": "q08",
@@ -116,8 +116,8 @@
     "faithfulness_score": 5,
     "faithfulness_reason": "The answer accurately reflects the context, stating that Premium Gold members receive unlimited free return shipping and that refunds are processed within 2 business days of item receipt, both of which are explicitly supported by the provided context.",
     "correctness_score": 3,
-    "correctness_reason": "The answer is partially correct but incomplete; it omits the instant store credit benefit.",
-    "trace_id": "d3e57021-f87f-4a3e-9fbd-826143bd66bb"
+    "correctness_reason": "The answer is partially correct but lacks the detail about instant store credit and tracking confirmation.",
+    "trace_id": "2a6ea789-5e26-433c-893d-3e7163f91a2c"
   },
   {
     "id": "q09",
@@ -125,14 +125,14 @@
     "category": "returns",
     "expected_source": "07_promotional_events.md",
     "expected_answer": "Premium members are exempt from the reduced 15-day return window and the 10% restocking fee on promotional purchases. However, items marked Final Sale cannot be returned even by Premium members.",
-    "answer": "During promotional events, the return rules differ for Premium members in the following ways:\n\n1. **Return Window**: Standard customers have a reduced return window of 15 calendar days from delivery for promotional items. In contrast, Premium members (both Silver and Gold) are exempt from this reduced window and can utilize their standard extended return windows.\n\n2. **Restocking Fee**: Standard customers are subject to a 10% restocking fee on returns of promotional items. However, Premium members are also exempt from this restocking fee for promotional purchases.\n\n3. **Final Sale Items**: Regardless of membership status, items marked as \"Final Sale\" are not eligible for return or exchange. These items are clearly labeled at the time of purchase.\n\nIn summary, Premium members benefit from extended return windows and no restocking fees for promotional items, but they cannot return Final Sale items.",
+    "answer": "During promotional events, the return rules differ for Premium members in the following ways:\n\n1. **Return Window**: Standard customers have a reduced return window of 15 calendar days from delivery for promotional items. In contrast, Premium members (both Silver and Gold) are exempt from this reduced window and can utilize their standard extended return windows.\n\n2. **Restocking Fee**: Standard customers are subject to a 10% restocking fee on returns of promotional items. However, Premium members are also exempt from this restocking fee for promotional purchases.\n\nRegarding **Final Sale items**, both standard and Premium members cannot return or exchange items marked as \"Final Sale.\" These items are clearly labeled at the time of purchase and are not eligible for return under any circumstances.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "Every claim made in the answer is explicitly supported by the context provided, detailing the differences in return rules for Premium members and Final Sale items.",
-    "correctness_score": 3,
-    "correctness_reason": "The answer provides detailed information about the return rules but includes extra details that are not necessary for a complete answer, making it partially correct.",
-    "trace_id": "d7de77ff-5e54-4997-8bce-0ec802c0e664"
+    "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided, detailing the differences in return rules for Premium members and Final Sale items.",
+    "correctness_score": 5,
+    "correctness_reason": "The answer accurately describes the differences in return rules for Premium members and Final Sale items, matching the expected answer in detail and meaning.",
+    "trace_id": "f1f4c63a-146b-4c53-aa21-dbbdbec38efb"
   },
   {
     "id": "q10",
@@ -147,7 +147,7 @@
     "faithfulness_reason": "The answer accurately reflects the context, stating that same-day delivery is available for orders placed before 12:00 PM in select metro cities and that the cost is \u20b9399 for all customers.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and details.",
-    "trace_id": "017e3e98-a4cd-4a8e-a3fd-ac47b5e0420f"
+    "trace_id": "fe86efc2-7f35-4d2a-994d-197ae5a8d395"
   },
   {
     "id": "q11",
@@ -155,14 +155,14 @@
     "category": "shipping",
     "expected_source": "03_shipping_policy.md",
     "expected_answer": "Remote or rural pin codes may add 2-3 business days to the estimated delivery time. A remote area surcharge of INR 149 may also apply and is shown at checkout before payment.",
-    "answer": "Shipping to remote or rural pin codes may take an additional 2-3 business days beyond the estimated delivery time. Additionally, a remote area surcharge of \u20b9149 may apply, which will be displayed at checkout before payment.",
+    "answer": "For remote or rural pin codes, shipping may take an additional 2-3 business days beyond the estimated delivery time. Additionally, a remote area surcharge of \u20b9149 may apply, which will be displayed at checkout before payment.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "The answer accurately reflects the context regarding shipping times and fees for remote or rural pin codes, including the additional time and surcharge mentioned.",
+    "faithfulness_reason": "The answer accurately reflects the context, stating that shipping to remote or rural pin codes may take an additional 2-3 business days and that a remote area surcharge of \u20b9149 may apply, both of which are explicitly supported by the provided context.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "11d30d0f-15f4-41b6-96c6-7d36c16126ac"
+    "trace_id": "fafe0a58-8d82-4f0b-a226-53bffc7bce34"
   },
   {
     "id": "q12",
@@ -170,14 +170,14 @@
     "category": "shipping",
     "expected_source": "03_shipping_policy.md",
     "expected_answer": "The customer must file a claim within 7 days if the package is marked delivered but not received. If the package cannot be located after investigation, Acmera issues a full refund or replacement within 10 business days.",
-    "answer": "If a package is marked as delivered but has not been received, the customer should file a claim within 7 days of the delivery date. Acmera's logistics team will investigate the issue with the carrier. If the package cannot be located, a full refund or replacement will be issued within 10 business days.",
+    "answer": "If a package is marked as delivered but has not been received, the customer should file a claim within 7 days of the delivery date. Acmera's logistics team will then investigate the issue with the carrier. If the package cannot be located, a full refund or replacement will be issued within 10 business days.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
     "faithfulness_reason": "The answer is fully supported by the context, detailing the steps a customer should take if a package is marked delivered but not received.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "44be12d8-ebf4-451e-9c98-2a36ddb1a8dc"
+    "trace_id": "f15320ad-e2ea-4c9f-9180-a517014489b9"
   },
   {
     "id": "q13",
@@ -185,14 +185,14 @@
     "category": "shipping",
     "expected_source": "02_premium_membership.md",
     "expected_answer": "Premium Silver members get free standard shipping on orders over INR 500, while Premium Gold members get free express shipping on all orders. Both tiers receive priority processing, with orders picked and shipped within 4 hours on business days, and their orders are prioritized during peak seasons.",
-    "answer": "Premium members enjoy several shipping advantages over standard customers:\n\n1. **Priority Processing**: Premium members' orders are picked and shipped within 4 hours during business days, while standard customers typically experience processing times of 24-48 hours.\n\n2. **Peak Season Prioritization**: During peak seasons, such as Diwali and end-of-year sales, Premium members' orders are prioritized over standard orders in the fulfillment queue.\n\n3. **Shipping Costs**: Premium Silver members receive free standard shipping on all orders over \u20b9500, while Premium Gold members receive free express shipping on all orders regardless of value.\n\nThese benefits ensure that Premium members receive faster and more cost-effective shipping compared to standard customers.",
+    "answer": "Premium members enjoy several shipping advantages over standard customers:\n\n1. **Processing Time**: Premium members receive priority processing, meaning their orders are picked and shipped within 4 hours during business days, while standard customers typically experience processing times of 24-48 hours.\n\n2. **Peak Seasons**: During peak seasons, such as Diwali and end-of-year sales, Premium members' orders are prioritized over standard orders in the fulfillment queue, ensuring faster delivery.\n\nThese advantages enhance the overall shopping experience for Premium members compared to standard customers.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
     "faithfulness_reason": "Every claim made in the answer is explicitly supported by the context provided, detailing the shipping advantages for Premium members over standard customers.",
-    "correctness_score": 5,
-    "correctness_reason": "The answer matches the expected answer exactly in terms of content and details provided.",
-    "trace_id": "c9cf7a2e-4a2e-410c-8348-066599611da2"
+    "correctness_score": 3,
+    "correctness_reason": "The answer provides some correct information about priority processing and peak season advantages but lacks details about the specific shipping benefits for Premium Silver and Gold members.",
+    "trace_id": "74c86d57-68e1-4e47-a8ba-141a88ddb7c2"
   },
   {
     "id": "q14",
@@ -207,7 +207,7 @@
     "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "98753b60-0e38-4886-a3ed-c83b78ba0ff7"
+    "trace_id": "599405e7-6bfd-4b0b-b257-29679de670aa"
   },
   {
     "id": "q15",
@@ -222,7 +222,7 @@
     "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of refund processing times for each payment method.",
-    "trace_id": "0907a546-cd99-409e-9dee-4cdcb60188d3"
+    "trace_id": "ebc2c75d-ff34-4fd1-8808-56f4f719f8b0"
   },
   {
     "id": "q16",
@@ -237,7 +237,7 @@
     "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning, with only minor differences in wording.",
-    "trace_id": "69813cdb-b9fe-4ce0-b6dc-a798e203e440"
+    "trace_id": "10e6a003-b145-4db9-813c-08ee070b1072"
   },
   {
     "id": "q17",
@@ -252,7 +252,7 @@
     "faithfulness_reason": "The answer accurately reflects the context, stating that Premium Gold members can choose wallet credit for refunds and that this wallet balance cannot be withdrawn as cash.",
     "correctness_score": 3,
     "correctness_reason": "The answer is partially correct but lacks detail about the wallet balance usage and transfer restrictions.",
-    "trace_id": "b9bce394-291d-42f4-a102-b29094c13e68"
+    "trace_id": "99767b24-5c34-4a37-a3cd-60eb2835b3d9"
   },
   {
     "id": "q18",
@@ -267,7 +267,7 @@
     "faithfulness_reason": "The answer accurately reflects the context, stating that the standard warranty is a minimum of 1 year and that claims must be initiated through Acmera's support team.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "1256bf19-84a9-4eee-92b5-137b5d9cbdc9"
+    "trace_id": "b0efd0ea-87ab-4f3a-a7e6-c17f0976c09a"
   },
   {
     "id": "q19",
@@ -282,7 +282,7 @@
     "faithfulness_reason": "The answer accurately reflects the context, stating that Acmera Shield Plus extends total coverage to 4 years, includes accidental damage protection, and costs 12% of the product price.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in content and meaning.",
-    "trace_id": "268daed0-31a3-4797-8e37-3a24181ca32e"
+    "trace_id": "54888e28-7a64-4bdf-b69b-378c254fe016"
   },
   {
     "id": "q20",
@@ -297,7 +297,7 @@
     "faithfulness_reason": "The answer accurately reflects the context, stating that a ProBook battery qualifies for warranty replacement if its capacity drops below 80% within the first year, which is explicitly supported by the provided context.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer semantically and provides the same information.",
-    "trace_id": "83cccc0c-2d1e-4e52-a6e1-3a600f0c6ec2"
+    "trace_id": "a20b71b5-92ba-4682-89c4-e5ebc0eefafc"
   },
   {
     "id": "q21",
@@ -309,10 +309,10 @@
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "The answer accurately reflects the dead pixel policy as stated in the context, with all claims explicitly supported.",
+    "faithfulness_reason": "The answer is explicitly supported by the context, which states Acmera's dead pixel policy allows warranty claims for 5 or more dead pixels or 1 or more in the center third of the display.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "0babb74c-c48d-438d-be44-144643d7880e"
+    "trace_id": "9d9a2ae9-def9-423f-b5c0-3eaca799ca1a"
   },
   {
     "id": "q22",
@@ -327,7 +327,7 @@
     "faithfulness_reason": "The answer accurately reflects the criteria for qualifying for Premium Gold status as stated in the context, including the spending requirement and the duration of Premium Silver status.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "a40b42f0-ef41-4d5d-8d27-c90daf4a16fe"
+    "trace_id": "c043d805-2e71-41c1-be40-6fc8e8c6380b"
   },
   {
     "id": "q23",
@@ -339,10 +339,10 @@
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "The answer accurately reflects the context provided, stating that customers will be notified 30 days before the downgrade and will retain benefits for a 90-day grace period, which is explicitly supported by the context.",
+    "faithfulness_reason": "The answer accurately reflects the context provided, detailing the notification period and the grace period for benefits after a downgrade.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer semantically and includes all key details.",
-    "trace_id": "fde6f9da-691b-4af2-bb95-4ecb9149cbc8"
+    "trace_id": "c50f9d25-6013-455f-ae4d-b0ae074c565a"
   },
   {
     "id": "q24",
@@ -350,14 +350,14 @@
     "category": "membership",
     "expected_source": "02_premium_membership.md",
     "expected_answer": "Premium Silver members use a dedicated support queue with an average response time under 2 hours. Premium Gold members get a 24/7 direct phone line staffed by senior support agents.",
-    "answer": "Premium Silver members are routed to a dedicated support queue with an average response time of under 2 hours. They can also escalate any support ticket directly to a team lead, but standard customers must go through a regular escalation process that typically takes 48-72 hours.\n\nPremium Gold members have access to a direct phone line staffed 24/7 with senior support agents. They also have the same escalation privileges as Silver members, allowing them to escalate support tickets directly to a team lead.",
+    "answer": "Premium Silver members are routed to a dedicated support queue with an average response time of under 2 hours. They can also escalate any support ticket directly to a team lead, but must go through the regular escalation process, which typically takes 48-72 hours.\n\nPremium Gold members have access to a direct phone line staffed 24/7 with senior support agents. They can also escalate any support ticket directly to a team lead, similar to Silver members.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided.",
+    "faithfulness_reason": "Every claim made in the answer about the support access for Premium Silver and Premium Gold members is explicitly supported by the provided context.",
     "correctness_score": 3,
-    "correctness_reason": "The answer provides additional details about escalation privileges and response times, but it does not match the expected answer exactly.",
-    "trace_id": "19af9f55-dd93-4e36-a623-dc64f5a66a6d"
+    "correctness_reason": "The answer provides relevant information but includes unnecessary details about the escalation process for Premium Silver members, making it partially correct.",
+    "trace_id": "4ad87b11-8255-4834-af1d-ddc35b308b58"
   },
   {
     "id": "q25",
@@ -372,7 +372,7 @@
     "faithfulness_reason": "The answer accurately reflects the context that the extended return window applies retroactively to all purchases made while the customer holds active Premium status, even if the membership was activated after the purchase date.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in meaning and detail.",
-    "trace_id": "6be1b350-da2c-419e-95b8-7814fc757179"
+    "trace_id": "c3e041b5-36da-4bf0-b9de-984263af7921"
   },
   {
     "id": "q26",
@@ -387,7 +387,7 @@
     "faithfulness_reason": "The answer accurately reflects the information provided in the context regarding the conditions under which a customer can change their delivery address.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in meaning and detail.",
-    "trace_id": "d5a09506-70c8-4504-a91e-9ccb9f4e65d9"
+    "trace_id": "90bb2ac0-0a83-450f-b702-f8e3a6bdefe3"
   },
   {
     "id": "q27",
@@ -395,14 +395,14 @@
     "category": "orders",
     "expected_source": "03_shipping_policy.md",
     "expected_answer": "Customers receive email and SMS updates when the order is confirmed, shipped, out for delivery, and delivered. Real-time tracking is available through the Acmera app or website.",
-    "answer": "Acmera sends automated email and SMS updates at the following stages of the order process: order confirmed, order shipped, out for delivery, and delivered. Customers can see real-time tracking through the Acmera app or website by going to \"My Orders\" and selecting the order they want to track.",
+    "answer": "Acmera sends automated email and SMS updates at the following stages of the order status: order confirmed, order shipped, out for delivery, and delivered. Customers can see real-time tracking through the Acmera app or website by going to \"My Orders\" and selecting the order they want to track.",
     "retrieval_hit": true,
     "mrr": 0.5,
     "faithfulness_score": 5,
     "faithfulness_reason": "Every claim in the answer is explicitly supported by the context, detailing the order-status updates and the method for real-time tracking.",
     "correctness_score": 5,
-    "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "fdf5ffed-5c3f-417f-abe2-0a50e3e019ee"
+    "correctness_reason": "The answer matches the expected answer exactly in terms of content and detail.",
+    "trace_id": "bc2059c1-ae63-456d-95cf-0599255def28"
   },
   {
     "id": "q28",
@@ -417,7 +417,7 @@
     "faithfulness_reason": "The answer accurately reflects the context regarding order processing times and the handling of orders placed after business hours.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "c7b2dbe1-5118-4182-8c09-f3eb0ff1bf89"
+    "trace_id": "e4bbc8f4-d3fa-45b4-a405-95263380ccb0"
   },
   {
     "id": "q29",
@@ -432,7 +432,7 @@
     "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided, including details about cancellation before shipment, the promotional return policy after shipment, and the process for initiating a cancellation request.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and structure.",
-    "trace_id": "4e776f43-1997-4d1a-8b30-ba2354ca9589"
+    "trace_id": "7b310865-16d3-4f58-91d7-0daf9cebdaf4"
   },
   {
     "id": "q30",
@@ -447,7 +447,7 @@
     "faithfulness_reason": "The answer accurately reflects the display and storage specifications of the Acmera ProBook Air 14 as provided in the context.",
     "correctness_score": 3,
     "correctness_reason": "The answer provides correct information about the display and storage but is incomplete as it omits details about the RAM.",
-    "trace_id": "ba99f37e-77fb-4e3e-acf4-83e0b98d7b1a"
+    "trace_id": "0d84beca-c9b4-4112-a676-4cdbba5b52b7"
   },
   {
     "id": "q31",
@@ -462,7 +462,7 @@
     "faithfulness_reason": "The answer accurately reflects the battery life and water resistance rating of the Acmera SoundPods Pro as stated in the context.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of battery life and water resistance rating.",
-    "trace_id": "ec06210c-d5d1-4447-824c-61e80aa06e74"
+    "trace_id": "a7e15d17-b40f-472c-beaa-0c2902f6aa33"
   },
   {
     "id": "q32",
@@ -470,14 +470,14 @@
     "category": "products",
     "expected_source": "17_smart_home_ecosystem.md",
     "expected_answer": "Setup requires the Acmera app: scan the QR code on the camera base, connect it to WiFi, and choose a storage option. It supports local microSD storage or a cloud subscription.",
-    "answer": "The SmartHome Camera 360 requires the Acmera app for initial setup. To set it up, you need to scan the QR code on the camera base, connect it to WiFi, and then choose your storage option. The storage options available for the SmartHome Camera 360 are:\n\n1. **Local microSD storage**\n2. **Cloud storage** (with different plans available)\n\nThe cloud storage plans include a free tier for live view only and paid options for recording history.",
+    "answer": "The SmartHome Camera 360 requires the Acmera app for initial setup. To set it up, you need to scan the QR code on the camera base, connect it to WiFi, and then choose your storage option. The storage options available for the SmartHome Camera 360 are:\n\n1. Local storage using a microSD card.\n2. Cloud storage, which offers different plans (Free, Basic, and Premium). \n\nThe Free tier allows live view only with no recording history, while the Basic plan provides a 7-day recording history for \u20b999/month, and the Premium plan offers a 30-day recording history for \u20b9199/month.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "Every claim in the answer is explicitly supported by the context, detailing the setup process and storage options for the SmartHome Camera 360.",
+    "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided, including the setup process and the details of the storage options.",
     "correctness_score": 5,
-    "correctness_reason": "The answer matches the expected answer exactly in terms of setup steps and storage options.",
-    "trace_id": "a66b41c2-3523-4298-9cbc-32a5feaf8d8f"
+    "correctness_reason": "The answer matches the expected answer exactly in terms of setup instructions and storage options.",
+    "trace_id": "cb4e85e6-f20a-47c2-9465-a462a29c6fb6"
   },
   {
     "id": "q33",
@@ -489,10 +489,10 @@
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "The answer accurately reflects the context, stating that the SmartHome Camera 360 is compatible with Apple HomeKit and that Hub Pro is not currently compatible but will be supported in Q2 2026.",
+    "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "f5abfaaf-cbcd-4e66-8152-73d514dcf236"
+    "trace_id": "400e1368-95cb-4799-9bb5-a50477f11ecf"
   },
   {
     "id": "q34",
@@ -504,10 +504,10 @@
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "Every claim in the answer is explicitly supported by the context, detailing the required contact information and its purposes.",
+    "faithfulness_reason": "Every claim in the answer is explicitly supported by the context, detailing the required contact information for creating and using an Acmera account.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer semantically and includes all necessary details.",
-    "trace_id": "b5d0cdbc-57ff-443d-aa62-6a35501bc538"
+    "trace_id": "10ea4d92-3c06-4ae9-a076-2b95bcc2e4de"
   },
   {
     "id": "q35",
@@ -515,14 +515,14 @@
     "category": "account",
     "expected_source": "10_account_management.md",
     "expected_answer": "Acmera requires two-factor authentication for all logins, using either SMS-based or app-based authentication. Passwords must be at least 12 characters long and include uppercase, lowercase, and numeric characters.",
-    "answer": "For Acmera account logins and password setup, the following security rules apply:\n\n1. **Two-Factor Authentication (2FA)**: Customers must use two-factor authentication, which can be SMS-based or app-based, to enhance account security.\n\n2. **Password Requirements**: Account passwords must be at least 12 characters long and include a combination of uppercase letters, lowercase letters, and numeric characters.\n\n3. **Account Lock**: If there are suspicious login attempts, the account will be automatically locked. To unlock the account, customers must verify their identity through their registered email.",
+    "answer": "For Acmera account logins and password setup, the following security rules apply:\n\n1. **Two-Factor Authentication (2FA)**: Customers must use two-factor authentication, which can be SMS-based or app-based, for added security during logins.\n\n2. **Password Requirements**: Account passwords must be at least 12 characters long and include a combination of uppercase letters, lowercase letters, and numeric characters.\n\n3. **Account Lock**: If there are suspicious login attempts, the account will be automatically locked. To unlock the account, customers must verify their identity through their registered email.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
     "faithfulness_reason": "Every claim in the answer about Acmera account logins and password setup is explicitly supported by the context provided.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and requirements.",
-    "trace_id": "4fd3e1f7-f432-4b69-9364-c7b5d54b7d22"
+    "trace_id": "92fc20c4-25bb-44a2-ba30-99d71363abf1"
   },
   {
     "id": "q36",
@@ -537,7 +537,7 @@
     "faithfulness_reason": "The answer accurately reflects the context, stating that data export requests are fulfilled within 30 days and that account deletion is permanent and results in the loss of order history and wallet balance.",
     "correctness_score": 3,
     "correctness_reason": "The answer is partially correct but omits the mention of Premium membership status.",
-    "trace_id": "fb201357-1b05-47c0-b4e6-9d656031ec5e"
+    "trace_id": "d5c88a78-1933-4d07-9cf8-f349fe57a3c4"
   },
   {
     "id": "q37",
@@ -552,7 +552,7 @@
     "faithfulness_reason": "The answer accurately reflects the context by stating that opting out of marketing does not affect transactional notifications and that Premium members will still receive alerts about Premium-only deals, both of which are explicitly supported by the provided context.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "f867584b-2be2-4b7d-86ba-40675718e43f"
+    "trace_id": "03c679c2-7619-40b4-8bf7-2c5972b8bfae"
   },
   {
     "id": "q38",
@@ -560,14 +560,14 @@
     "category": "rewards",
     "expected_source": "16_referral_program.md",
     "expected_answer": "When a new customer signs up with a referral code and makes a first purchase of at least INR 1,000, the referrer gets INR 500 in Acmera Wallet credit. The referee gets INR 300 off their first order.",
-    "answer": "The referrer receives \u20b9500 in Acmera Wallet credit when a new customer signs up using their referral code and makes their first purchase. The new customer receives \u20b9300 off their first order. The minimum purchase required for the referral reward to be valid is \u20b91,000 or more.",
+    "answer": "The referrer receives \u20b9500 in Acmera Wallet credit when a new customer signs up using their referral code and makes their first purchase of \u20b91,000 or more. The new customer (referee) receives \u20b9300 off their first order.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
     "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "6525332c-a53d-4792-b47a-52398d576668"
+    "trace_id": "6e3bbd67-4fb7-4b08-92cd-6ac11cfab13b"
   },
   {
     "id": "q39",
@@ -581,8 +581,8 @@
     "faithfulness_score": 5,
     "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided, detailing the referral rewards for Premium Silver and Premium Gold members.",
     "correctness_score": 5,
-    "correctness_reason": "The answer matches the expected answer exactly in terms of referral rewards for Premium Silver and Premium Gold members, and it includes the necessary details about standard members.",
-    "trace_id": "20207cec-1892-4602-9da3-a64c0d657ab8"
+    "correctness_reason": "The answer matches the expected answer exactly in terms of referral rewards for Premium Silver and Premium Gold members.",
+    "trace_id": "17760c12-3195-4cfb-bbd9-b1b3dc27799a"
   },
   {
     "id": "q40",
@@ -590,14 +590,14 @@
     "category": "rewards",
     "expected_source": "13_acmera_wallet.md",
     "expected_answer": "Promotional wallet credits expire 90 days from the date they are issued. During checkout, promotional credits are applied before the regular wallet balance.",
-    "answer": "Promotional wallet credits have a 90-day expiry from the date of issue. During checkout, promotional credits are applied before the regular wallet balance.",
+    "answer": "Promotional wallet credits last for 90 days from the date of issue. During checkout, promotional credits are applied before the regular wallet balance.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "The answer accurately reflects the context, stating that promotional wallet credits have a 90-day expiry and that they are applied before the regular wallet balance during checkout.",
+    "faithfulness_reason": "The answer accurately reflects the context, stating that promotional wallet credits last for 90 days and are applied before the regular wallet balance during checkout.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "500ec85c-130c-4e34-a4ba-836767d958fe"
+    "trace_id": "cb4319e5-6d81-4c0e-b24b-bce6ec070adf"
   },
   {
     "id": "q41",
@@ -611,8 +611,8 @@
     "faithfulness_score": 5,
     "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided, detailing the conditions under which a referral reward can be revoked or blocked.",
     "correctness_score": 3,
-    "correctness_reason": "The answer is partially correct but incomplete; it does not mention that referral rewards cannot be combined with other promotional offers.",
-    "trace_id": "1a01b2f9-9a06-4a3d-b91b-c8d553c87834"
+    "correctness_reason": "The answer is partially correct but incomplete; it omits the detail about combining referral rewards with other promotional offers.",
+    "trace_id": "a49a9d67-0d82-4cc6-9824-34abb75208af"
   },
   {
     "id": "q42",
@@ -626,8 +626,8 @@
     "faithfulness_score": 5,
     "faithfulness_reason": "The answer accurately reflects the context, stating that Acmera flash sales last for 6-24 hours and are announced 24 hours in advance, both of which are explicitly supported by the provided context.",
     "correctness_score": 5,
-    "correctness_reason": "The answer matches the expected answer exactly in terms of duration and announcement method.",
-    "trace_id": "833258bc-d098-4cc6-8fd7-43acd315eb9e"
+    "correctness_reason": "The answer matches the expected answer exactly in terms of content and phrasing.",
+    "trace_id": "2bdba56e-fd59-4116-a88f-af22f042f4e2"
   },
   {
     "id": "q43",
@@ -639,10 +639,10 @@
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "The answer accurately reflects the context, stating that standard customers can request a price adjustment within 7 days and premium members within 14 days, which is explicitly supported by the provided context.",
+    "faithfulness_reason": "The answer accurately reflects the context, stating that standard customers can request a price adjustment within 7 days and premium members within 14 days, which is explicitly supported by the provided information.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "c88dd54b-411c-46ff-87d9-361c9191f769"
+    "trace_id": "352fb183-1da0-49fc-b965-542610291b8b"
   },
   {
     "id": "q44",
@@ -657,7 +657,7 @@
     "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and details.",
-    "trace_id": "8091e026-b720-4e1e-9768-5b5723bba687"
+    "trace_id": "c65ba7fb-9081-4e3f-a42b-4fb110e69f4f"
   },
   {
     "id": "q45",
@@ -665,14 +665,14 @@
     "category": "promotions",
     "expected_source": "07_promotional_events.md",
     "expected_answer": "Promotional items are sold while supplies last, quantity limits may be enforced per customer, and back-orders are not accepted. Orders can be cancelled before shipment for a full refund, but once shipped the promotional return policy applies.",
-    "answer": "During promotional events, the following inventory controls and cancellation rules apply:\n\n### Inventory Controls:\n- Promotional items are available while supplies last.\n- Acmera reserves the right to limit quantities per customer. Orders that exceed these quantity limits may be partially or fully cancelled, with a full refund issued.\n- Back-orders are not accepted during promotional events.\n\n### Cancellation Rules:\n- Orders placed during promotional events can be cancelled before shipment for a full refund.\n- Once an order has shipped, the promotional return policy applies.\n- Cancellation requests must be made through the app or by contacting support.",
+    "answer": "During promotional events, Acmera has specific inventory controls and cancellation rules:\n\n### Inventory Controls:\n- Promotional items are available while supplies last.\n- Acmera reserves the right to limit quantities per customer.\n- Orders that exceed quantity limits may be partially or fully cancelled with a full refund.\n- Back-orders are not accepted during promotional events.\n\n### Cancellation Rules:\n- Orders placed during promotional events can be cancelled before shipment for a full refund.\n- Once an order has shipped, the promotional return policy applies.\n- Cancellation requests must be made through the app or by contacting support.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided, including details about inventory controls and cancellation rules during promotional events.",
-    "correctness_score": 5,
-    "correctness_reason": "The answer matches the expected answer in content and meaning, covering all key points regarding inventory controls and cancellation rules.",
-    "trace_id": "9185276f-69e0-4c6c-92e1-369da6cdcc68"
+    "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided.",
+    "correctness_score": 3,
+    "correctness_reason": "The answer provides additional details and structure but is partially correct and incomplete compared to the expected answer.",
+    "trace_id": "4744e4f3-7261-4b21-ad7f-3020eeb65d6c"
   },
   {
     "id": "q46",
@@ -680,14 +680,14 @@
     "category": "sustainability",
     "expected_source": "18_sustainability.md",
     "expected_answer": "All Acmera products ship in 100% recyclable packaging, and single-use plastics were eliminated from all shipments starting in January 2025. The packaging also uses soy-based inks and FSC-certified cardboard.",
-    "answer": "Acmera is committed to sustainability in its packaging by ensuring that all products ship in 100% recyclable packaging. Since January 2025, the company has eliminated single-use plastics from all shipments. The product packaging utilizes soy-based inks and FSC-certified cardboard. For electronics, Acmera uses molded pulp inserts instead of expanded polystyrene (EPS), aiming to protect products during transit while minimizing environmental impact.",
+    "answer": "Acmera is committed to sustainability in its packaging by ensuring that all products ship in 100% recyclable packaging. Since January 2025, the company has eliminated single-use plastics from all shipments. The product packaging utilizes soy-based inks and FSC-certified cardboard. For electronics, Acmera uses molded pulp inserts instead of expanded polystyrene (EPS) to minimize environmental impact while protecting products during transit.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
     "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided.",
     "correctness_score": 3,
     "correctness_reason": "The answer includes additional details about molded pulp inserts for electronics, which is not in the expected answer, making it partially correct but not fully aligned.",
-    "trace_id": "886d14ce-f5cc-4016-bad8-9c88b9c636e9"
+    "trace_id": "67fb11c3-79dd-4e38-b362-ce45b177963e"
   },
   {
     "id": "q47",
@@ -702,7 +702,7 @@
     "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "5eb3685e-932b-458c-a3c7-7f9e6a6477e8"
+    "trace_id": "c30c0da4-b393-4973-949b-4d97efc4539f"
   },
   {
     "id": "q48",
@@ -710,14 +710,14 @@
     "category": "sustainability",
     "expected_source": "18_sustainability.md",
     "expected_answer": "Renewed products are sold with a 6-month warranty and still follow the standard return policy. However, they are not eligible for extended warranty plans.",
-    "answer": "Acmera Renewed products follow the standard return policy, which allows returns within 30 calendar days of the delivery date. However, they are not eligible for extended warranty plans. Renewed products come with a 6-month warranty, which covers defects in materials and workmanship under normal use conditions.",
+    "answer": "Acmera Renewed products follow the standard return policy, which allows returns within 30 calendar days of the delivery date. However, they are not eligible for extended warranty plans. Renewed products come with a 6-month warranty covering defects, but this warranty is separate from the standard warranty offered on new products.",
     "retrieval_hit": true,
     "mrr": 0.25,
     "faithfulness_score": 5,
     "faithfulness_reason": "The answer accurately reflects the context regarding the return policy and warranty for Acmera Renewed products, including the 30-day return window and the 6-month warranty.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of warranty and return policy details.",
-    "trace_id": "ff454ca5-ce6d-4834-bb4e-adee706d7932"
+    "trace_id": "d5743491-717a-4dc6-acaf-876029e9ae05"
   },
   {
     "id": "q49",
@@ -725,14 +725,14 @@
     "category": "sustainability",
     "expected_source": "18_sustainability.md",
     "expected_answer": "Acmera offsets 100% of shipping-related carbon emissions through verified carbon credit programs, and customers can view the estimated  footprint at checkout. Customers who choose standard shipping receive INR 10  in Acmera Wallet credit because it is the lower-emission option.",
-    "answer": "Acmera is committed to sustainability and offers a customer incentive for choosing standard shipping, which is a lower-emission option. Customers who select standard shipping receive a \u20b910 Acmera Wallet credit as a thank-you for their choice. This initiative encourages customers to opt for a shipping method that has a reduced carbon footprint.",
+    "answer": "Acmera is committed to sustainability and offers a customer incentive for choosing standard shipping, which is a lower-emission option. Customers who select standard shipping receive a \u20b910 Acmera Wallet credit as a thank-you for their choice.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
     "faithfulness_reason": "The answer accurately reflects the context, stating Acmera's commitment to sustainability and the customer incentive for choosing standard shipping, which is explicitly mentioned in the provided context.",
     "correctness_score": 3,
-    "correctness_reason": "The answer is partially correct as it mentions the customer incentive and lower-emission option, but it does not include the information about offsetting 100% of shipping-related carbon emissions or viewing the estimated footprint at checkout.",
-    "trace_id": "0ac6ade7-1940-411b-89d5-2c9d20cd93f0"
+    "correctness_reason": "The answer mentions Acmera's commitment to sustainability and the customer incentive for standard shipping, but it does not specify that Acmera offsets 100% of shipping-related carbon emissions or that customers can view the estimated footprint at checkout.",
+    "trace_id": "9900d0b4-6163-4ecd-a7c8-b88e6a56e0cc"
   },
   {
     "id": "q50",
@@ -740,14 +740,14 @@
     "category": "business",
     "expected_source": "12_corporate_gifting.md",
     "expected_answer": "The Corporate Gifting program is available to registered businesses with a valid GST number. It is intended for bulk purchases such as  employee rewards, client gifts, and event giveaways.",
-    "answer": "The Corporate Gifting program is available to registered businesses that have a valid GST number.",
+    "answer": "The Acmera Corporate Gifting program is available to registered businesses that have a valid GST number.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "The answer accurately reflects the context, stating that the Corporate Gifting program is available to registered businesses with a valid GST number, which is explicitly mentioned in the provided context.",
+    "faithfulness_reason": "The answer accurately reflects the context, stating that the program is available to registered businesses with a valid GST number, which is explicitly mentioned in the provided context.",
     "correctness_score": 3,
     "correctness_reason": "The answer is partially correct but lacks details about the intended use of the program.",
-    "trace_id": "11e28bc0-1710-457c-8438-7fa50e7a0b32"
+    "trace_id": "4b745186-b4e9-4051-beda-c198bb547a79"
   },
   {
     "id": "q51",
@@ -755,14 +755,14 @@
     "category": "business",
     "expected_source": "12_corporate_gifting.md",
     "expected_answer": "Orders of 10-49 units get 10% off retail, 50-99 units get 15% off, and 100 or more units get 20% off retail plus free express shipping. Orders above 500 units can request a custom enterprise quote.",
-    "answer": "For corporate orders, Acmera offers the following bulk discounts:\n\n- For 10-49 units: 10% discount off the retail price.\n- For 50-99 units: 15% discount off the retail price.\n- For 100+ units: 20% discount off the retail price, plus free express shipping.",
+    "answer": "For corporate orders, the bulk discounts offered are as follows:\n\n- For 10-49 units: 10% discount off the retail price.\n- For 50-99 units: 15% discount off the retail price.\n- For 100+ units: 20% discount off the retail price, plus free express shipping.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "Every claim in the answer about bulk discounts for corporate orders is explicitly supported by the context provided.",
+    "faithfulness_reason": "Every claim in the answer about the bulk discounts for corporate orders is explicitly supported by the context provided.",
     "correctness_score": 3,
-    "correctness_reason": "The answer provides the correct bulk discounts but omits the information about custom enterprise quotes for orders above 500 units.",
-    "trace_id": "becc4e40-f492-4028-bcd6-6d981c7df191"
+    "correctness_reason": "The answer provides the correct bulk discount percentages but omits the information about custom enterprise quotes for orders above 500 units.",
+    "trace_id": "c00bfaeb-c626-4b7f-9068-1a308b49e9c8"
   },
   {
     "id": "q52",
@@ -770,14 +770,14 @@
     "category": "business",
     "expected_source": "19_acmera_business.md",
     "expected_answer": "Business accounts get a dedicated account manager when annual spending exceeds INR 10 lakh. Emergency support with a 15-minute response time is available 24/7 only for accounts over INR 25 lakh annually.",
-    "answer": "A business account qualifies for a dedicated account manager if it has an annual spending of over \u20b910 lakh. For 24/7 emergency support, accounts must have an annual spending of over \u20b925 lakh.",
+    "answer": "A business account qualifies for a dedicated account manager if it has an annual spend of over \u20b910 lakh. For 24/7 emergency support with a 15-minute response time, accounts must have an annual spend of over \u20b925 lakh.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "The answer accurately reflects the context, stating that a business account qualifies for a dedicated account manager with annual spending over \u20b910 lakh and for 24/7 emergency support with spending over \u20b925 lakh.",
-    "correctness_score": 3,
-    "correctness_reason": "The answer is partially correct but lacks details about the 15-minute response time for emergency support.",
-    "trace_id": "f2e7957e-b6d8-4274-a95f-0bf1823dfbc2"
+    "faithfulness_reason": "The answer accurately reflects the context, stating that a dedicated account manager is assigned for accounts with an annual spend over \u20b910 lakh and that 24/7 emergency support is available for accounts over \u20b925 lakh.",
+    "correctness_score": 5,
+    "correctness_reason": "The answer matches the expected answer exactly in terms of content and phrasing.",
+    "trace_id": "25e2361c-9604-4e57-910e-8cf0a725fcf1"
   },
   {
     "id": "q53",
@@ -792,7 +792,7 @@
     "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "1d15df46-6635-42f0-b0fd-0b8d9b5e1ffd"
+    "trace_id": "b1be1f5e-5deb-4b19-8d3c-d76162312492"
   },
   {
     "id": "q54",
@@ -804,10 +804,10 @@
     "retrieval_hit": true,
     "mrr": 0.5,
     "faithfulness_score": 5,
-    "faithfulness_reason": "Every claim in the answer is explicitly supported by the context, including the requirement to report within 48 hours, the need for photographic evidence, and the arrangement for a replacement or refund without needing to return the damaged item.",
+    "faithfulness_reason": "The answer accurately reflects the context, stating that customers should report damage within 48 hours with photographic evidence, and that Acmera will arrange for a replacement or refund without needing the damaged item returned.",
     "correctness_score": 3,
     "correctness_reason": "The answer is partially correct but lacks details about reporting through the app or contacting support and does not mention including photos of the packaging.",
-    "trace_id": "c49bab81-8f32-456b-a99e-88ca9a765cea"
+    "trace_id": "7ef14696-6317-4975-9499-7c677e9e0701"
   },
   {
     "id": "q55",
@@ -815,14 +815,14 @@
     "category": "support",
     "expected_source": "06_support_faq.md",
     "expected_answer": "If the return shows as received and more than 7 business days have passed for a standard customer, they should contact support. Premium members should follow up after more than 3 business days.",
-    "answer": "A customer should follow up if the refund has not appeared after 7 business days for standard customers or after 2 business days for Premium members, once Acmera has received and inspected the returned item.",
+    "answer": "Customers should follow up if the refund has not appeared after 7 business days for standard members or 2 business days for Premium members, starting from when Acmera receives and inspects the returned item.",
     "retrieval_hit": true,
     "mrr": 0.3333333333333333,
     "faithfulness_score": 5,
-    "faithfulness_reason": "The answer accurately reflects the context, stating that customers should follow up after 7 business days for standard customers and 2 business days for Premium members, which is explicitly supported by the provided information.",
+    "faithfulness_reason": "The answer accurately reflects the context, stating that customers should follow up after 7 business days for standard members and 2 business days for Premium members, which is explicitly supported by the provided information.",
     "correctness_score": 3,
-    "correctness_reason": "The answer provides a follow-up timeframe but incorrectly states 2 business days for Premium members instead of 3.",
-    "trace_id": "6fa75aab-d09f-49be-8a1b-2565f3a36f70"
+    "correctness_reason": "The answer is partially correct but contains inaccuracies in the follow-up time for Premium members and does not mention contacting support.",
+    "trace_id": "b8a94ec2-6e88-463c-a2c4-b62639cf8d1d"
   },
   {
     "id": "q56",
@@ -830,14 +830,14 @@
     "category": "support",
     "expected_source": "08_support_tickets.md",
     "expected_answer": "The return was approved because the customer was a Premium Gold member, which gave her a 60-day return window instead of the standard 30 days. A return label was issued and the refund was processed to  the original HDFC credit card within 2 business days.",
-    "answer": "Ticket ARC-78432 was approved because the customer, Priya Sharma, is a Premium Gold member, which grants her a 60-day return window. Although the standard return window is 30 days, Premium Gold members have an extended return period, allowing her to return the laptop 43 days after delivery.",
+    "answer": "Ticket ARC-78432 was approved because the customer, Priya Sharma, is a Premium Gold member, which grants her a 60-day return window. The return was initiated 43 days after delivery, which is within the allowed timeframe for Premium Gold members.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "The answer accurately reflects the context, stating that Priya Sharma is a Premium Gold member with a 60-day return window, which justifies the approval of the ticket 43 days after delivery.",
+    "faithfulness_reason": "The answer accurately reflects the context, stating that Priya Sharma is a Premium Gold member with a 60-day return window, which justifies the approval of the return 43 days after delivery.",
     "correctness_score": 3,
-    "correctness_reason": "The answer correctly identifies the reason for the approval related to the Premium Gold membership and the extended return window, but it omits details about the return label and refund processing.",
-    "trace_id": "94f82fb5-05de-44b9-80c6-c47cbf5fcec2"
+    "correctness_reason": "The answer correctly identifies the reason for approval related to the Premium Gold membership and the return window, but it lacks details about the return label issuance and refund processing.",
+    "trace_id": "d83a8053-3067-473b-88e8-a8745d67479f"
   },
   {
     "id": "q57",
@@ -845,14 +845,14 @@
     "category": "support",
     "expected_source": "15_slack_support_chat.md",
     "expected_answer": "The team lead said the promotional return restrictions should not apply to a genuinely defective item, and the case should be handled through the warranty process. If the defect is confirmed, support can also approve a refund as a goodwill gesture and document it as a defective- item return.",
-    "answer": "The support team noted that the customer, Amit Kumar, was a standard customer with a promotional return window of 15 days. He wanted to return the SoundPods Pro after 18 days, claiming the product was defective. The context indicates that if the product is defective, the return policy does not apply, suggesting that the return could be processed despite being outside the standard return window. However, the specific resolution for this case is not provided in the context.",
+    "answer": "The support team noted that the customer, Amit Kumar, was a standard customer who purchased the SoundPods Pro during a sale and wanted to return it after 18 days. The standard promotional return window for this product was 15 days. However, since the customer claimed the product was defective, the return policy does not restrict returns for defective items. Therefore, the return would likely be approved based on the defect claim, despite being outside the standard return window.",
     "retrieval_hit": true,
     "mrr": 1.0,
-    "faithfulness_score": 3,
-    "faithfulness_reason": "The answer accurately describes the customer's situation and the context regarding the return policy, but it does not provide a specific resolution for the case, leaving some claims unsupported.",
+    "faithfulness_score": 5,
+    "faithfulness_reason": "The answer accurately reflects the context provided, including the customer's identity, the return window, and the policy regarding defective items.",
     "correctness_score": 3,
-    "correctness_reason": "The answer provides relevant information about the customer's situation and the return policy but lacks the specific resolution and details mentioned in the expected answer.",
-    "trace_id": "024052ca-82fb-488d-bca5-bb35c9dfc7b2"
+    "correctness_reason": "The answer provides relevant information about the return policy for defective items but lacks details about the warranty process and the potential for a goodwill gesture.",
+    "trace_id": "2ca66f74-4fa3-4285-8f43-7a98f314adc3"
   },
   {
     "id": "q58",
@@ -866,8 +866,8 @@
     "faithfulness_score": 5,
     "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided in the troubleshooting guide.",
     "correctness_score": 3,
-    "correctness_reason": "The answer includes all the necessary steps but adds extra information about contacting support, making it partially correct.",
-    "trace_id": "4904f4e6-faee-473c-a3ee-5b1324a1412f"
+    "correctness_reason": "The answer includes additional information about contacting support and checking the charging LED, but it is not as concise as the expected answer.",
+    "trace_id": "8b58ebf6-3a32-437b-b15c-a99484f719a3"
   },
   {
     "id": "q59",
@@ -882,7 +882,7 @@
     "faithfulness_reason": "The answer accurately reflects the troubleshooting steps for Wi-Fi connectivity problems as outlined in the context, and it correctly identifies when a hardware issue may be indicated.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of troubleshooting steps and the indication of a hardware issue.",
-    "trace_id": "44ca9cc4-a3dc-4759-aaa5-c843a4c1477f"
+    "trace_id": "83c2a745-fa56-4471-b3be-83d29a095c9d"
   },
   {
     "id": "q60",
@@ -894,10 +894,10 @@
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided.",
+    "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided in the troubleshooting guide.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of content and sequence.",
-    "trace_id": "ccb80d14-0723-4279-a8b1-dda548b3b9b9"
+    "trace_id": "1830784a-80de-4d76-8e0f-d6616ed80e79"
   },
   {
     "id": "q61",
@@ -905,14 +905,14 @@
     "category": "troubleshooting",
     "expected_source": "14_probook_troubleshooting.md",
     "expected_answer": "If the device is still within the return window, a return for a full refund is often faster than a warranty claim. After the return window closes, the customer should file a warranty claim through support, while physical damage is not covered by warranty and requires discussing paid repair options.",
-    "answer": "A customer should consider the following factors when choosing between a return, a warranty claim, and paid repair for a defective or damaged ProBook:\n\n1. **Return Window**: \n   - If the product is still within the return window (30 days for standard, 45 days for Premium Silver, 60 days for Premium Gold), the customer can return the product for a full refund. This is often the fastest option.\n\n2. **Warranty Claim**: \n   - If the return window has closed, the customer should file a warranty claim for defects not caused by physical damage. The warranty covers manufacturing defects and software issues present at the time of purchase. The warranty claim process typically takes 7-14 business days for repairs or replacements.\n\n3. **Paid Repair**: \n   - If the product has physical damage or issues not covered by the warranty (such as water damage, unauthorized modifications, or normal wear and tear), the customer should contact support to discuss repair options, which would be a paid service.\n\nIn summary, if within the return window, opt for a return. If outside the return window and the issue is a defect, file a warranty claim. If there is physical damage, consider paid repair options.",
+    "answer": "A customer should consider the following factors when choosing between a return, a warranty claim, and paid repair for a defective or damaged ProBook:\n\n1. **Return Window**:\n   - If the product is still within the return window (30 days for standard, 45 days for Premium Silver, 60 days for Premium Gold), the customer can return the product for a full refund. This is often the quickest option.\n\n2. **Warranty Claim**:\n   - If the return window has closed, the customer should file a warranty claim for defects not caused by physical damage. The warranty covers manufacturing defects and software issues present at the time of purchase. The warranty claim process typically takes 7-14 business days for repairs or replacements.\n\n3. **Paid Repair**:\n   - If the product has physical damage or issues not covered by the warranty (such as water damage or damage from unauthorized modifications), the customer should contact support to discuss repair options, which would be a paid service.\n\nIn summary, if within the return window, opt for a return. If outside the return window and the issue is a defect, file a warranty claim. If there is physical damage, consider paid repair options.",
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "Every claim made in the answer is explicitly supported by the context provided, detailing the return window, warranty claims, and conditions for paid repairs.",
-    "correctness_score": 5,
-    "correctness_reason": "The answer provides a detailed and accurate explanation of the options available to the customer, aligning closely with the expected answer.",
-    "trace_id": "619cd7e2-0ccf-410a-976a-30cb1b56cc76"
+    "faithfulness_reason": "The answer accurately reflects the context provided, detailing the return window, warranty claim process, and conditions for paid repair, all of which are explicitly supported by the context.",
+    "correctness_score": 3,
+    "correctness_reason": "The answer provides detailed information on the return window, warranty claims, and paid repairs, but it is more verbose and slightly different in phrasing compared to the expected answer.",
+    "trace_id": "a2d0df08-6cd3-41d6-8811-0e2ed15b05ac"
   },
   {
     "id": "q62",
@@ -924,10 +924,10 @@
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided.",
+    "faithfulness_reason": "Every claim about discount authority and the maximum goodwill discount is explicitly supported by the context.",
     "correctness_score": 5,
-    "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "6972df9c-dd99-42fe-8461-10f513137a0c"
+    "correctness_reason": "The answer matches the expected answer exactly in terms of content and structure.",
+    "trace_id": "4a84f1f4-3a84-4e56-a871-78b6b489d0ea"
   },
   {
     "id": "q63",
@@ -939,10 +939,10 @@
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "The answer accurately reflects the conditions for Acmera's price matching policy as stated in the context, including the requirement for customer request, authorized retailer status, and product identity.",
+    "faithfulness_reason": "The answer accurately reflects the conditions under which Acmera can match a competitor's price, as explicitly stated in the context.",
     "correctness_score": 5,
-    "correctness_reason": "The answer matches the expected answer exactly in terms of conditions for price matching.",
-    "trace_id": "22667830-2b7e-4e28-b952-b1488507c6a1"
+    "correctness_reason": "The answer matches the expected answer exactly in terms of conditions and exclusions.",
+    "trace_id": "b5d818a8-b2e9-41e6-a0d1-9791879d286b"
   },
   {
     "id": "q64",
@@ -954,10 +954,10 @@
     "retrieval_hit": true,
     "mrr": 1.0,
     "faithfulness_score": 5,
-    "faithfulness_reason": "Every claim about the internal cost, retail price, and margin for the SmartHome Hub Pro is explicitly supported by the context provided.",
+    "faithfulness_reason": "Every claim about the internal cost, retail price, and margin for the SmartHome Hub Pro is explicitly supported by the context.",
     "correctness_score": 5,
-    "correctness_reason": "The answer matches the expected answer exactly in terms of content and meaning.",
-    "trace_id": "fdc7a4c0-ffa2-49fa-ac64-0ca0a54616b6"
+    "correctness_reason": "The answer matches the expected answer exactly in terms of values and structure.",
+    "trace_id": "daa0d521-246a-4e9b-be06-925eeda88765"
   },
   {
     "id": "q65",
@@ -972,6 +972,6 @@
     "faithfulness_reason": "Every claim in the answer is explicitly supported by the context provided, including details on bulk pricing, customization options, and fulfillment time.",
     "correctness_score": 5,
     "correctness_reason": "The answer matches the expected answer exactly in terms of pricing, customization thresholds, and fulfillment time.",
-    "trace_id": "84928084-4dd2-4149-b1a1-0cfe1cb25441"
+    "trace_id": "3ae7575e-827f-4153-a837-e4fee2723856"
   }
 ]
