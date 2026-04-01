@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+.git/
+*.log
+*.json
+data/
+node_modules/

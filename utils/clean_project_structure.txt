@@ -1,0 +1,37 @@
+.
+├── .jbeval
+│   └── datasets
+├── corpus
+│   ├── 01_return_policy.md
+│   ├── 02_premium_membership.md
+│   ├── 03_shipping_policy.md
+│   ├── 04_warranty_policy.md
+│   ├── 05_payment_methods.md
+│   ├── 06_support_faq.md
+│   ├── 07_promotional_events.md
+│   ├── 08_support_tickets.md
+│   ├── 09_electronics_catalog.md
+│   ├── 10_account_management.md
+│   ├── 11_internal_pricing.md
+│   ├── 12_corporate_gifting.md
+│   ├── 13_acmera_wallet.md
+│   ├── 14_probook_troubleshooting.md
+│   ├── 15_slack_support_chat.md
+│   ├── 16_referral_program.md
+│   ├── 17_smart_home_ecosystem.md
+│   ├── 18_sustainability.md
+│   └── 19_acmera_business.md
+├── scripts
+│   ├── demo.py
+│   ├── eval_harness.py
+│   ├── golden_dataset.json
+│   ├── ingest.py
+│   ├── rag.py
+│   └── setup_db.py
+├── utils
+│   └── generate_root_folder_tree.py
+├── .env.example
+├── .gitignore
+├── docker-compose.yml
+├── README.md
+└── requirements.txt
