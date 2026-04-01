@@ -4,7 +4,7 @@ __pycache__/
 *.pyo
 .DS_Store
 .venv
-codex_prompts
+#codex_prompts
 .idea
 scripts/golden_dataset_merge.py
 scripts/new_entries.json
