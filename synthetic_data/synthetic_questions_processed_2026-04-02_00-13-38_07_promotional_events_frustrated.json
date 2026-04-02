@@ -1,0 +1,42 @@
+[
+  {
+    "query": "Why can't I combine my coupon with the promotional discount? This is so frustrating!",
+    "expected_answer": "Promotional discounts cannot be combined with coupon codes or other offers unless explicitly stated.",
+    "difficulty": "easy",
+    "category": "promotions",
+    "expected_source": "07_promotional_events.md",
+    "persona": "frustrated"
+  },
+  {
+    "query": "What is this 10% restocking fee for returns? It's ridiculous!",
+    "expected_answer": "A 10% restocking fee applies to all returns of promotional items.",
+    "difficulty": "medium",
+    "category": "returns",
+    "expected_source": "07_promotional_events.md",
+    "persona": "frustrated"
+  },
+  {
+    "query": "How come I can't return clearance items marked as 'Final Sale'? That's just unfair!",
+    "expected_answer": "'Final Sale' items are not eligible for return or exchange and are clearly labeled at the time of purchase.",
+    "difficulty": "medium",
+    "category": "returns",
+    "expected_source": "07_promotional_events.md",
+    "persona": "frustrated"
+  },
+  {
+    "query": "I just found out an item I bought is now on sale! Why can't I get a price adjustment?",
+    "expected_answer": "Standard customers can request a one-time price adjustment if an item goes on sale within 7 days of purchase.",
+    "difficulty": "hard",
+    "category": "pricing",
+    "expected_source": "07_promotional_events.md",
+    "persona": "frustrated"
+  },
+  {
+    "query": "Why are promotional items only available while supplies last? This is such a hassle!",
+    "expected_answer": "Promotional items are available while supplies last, and back-orders are not accepted during promotional events.",
+    "difficulty": "hard",
+    "category": "products",
+    "expected_source": "07_promotional_events.md",
+    "persona": "frustrated"
+  }
+]

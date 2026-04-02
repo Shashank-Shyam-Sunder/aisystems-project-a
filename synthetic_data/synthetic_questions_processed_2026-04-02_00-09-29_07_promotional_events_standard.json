@@ -1,0 +1,42 @@
+[
+  {
+    "query": "What is the duration of Seasonal Sales at Acmera?",
+    "expected_answer": "5-7 days",
+    "difficulty": "easy",
+    "category": "promotions",
+    "expected_source": "07_promotional_events.md",
+    "persona": "standard"
+  },
+  {
+    "query": "How much notice is given before a Flash Sale starts?",
+    "expected_answer": "24 hours in advance",
+    "difficulty": "medium",
+    "category": "promotions",
+    "expected_source": "07_promotional_events.md",
+    "persona": "standard"
+  },
+  {
+    "query": "What is the return window for items purchased during a promotional event?",
+    "expected_answer": "15 calendar days from delivery",
+    "difficulty": "medium",
+    "category": "returns",
+    "expected_source": "07_promotional_events.md",
+    "persona": "standard"
+  },
+  {
+    "query": "Can Premium members return items marked as 'Final Sale' during promotional events?",
+    "expected_answer": "No, they cannot return 'Final Sale' items.",
+    "difficulty": "hard",
+    "category": "returns",
+    "expected_source": "07_promotional_events.md",
+    "persona": "standard"
+  },
+  {
+    "query": "What happens if an item goes out of stock during a promotional event?",
+    "expected_answer": "It is removed from the sale.",
+    "difficulty": "medium",
+    "category": "promotions",
+    "expected_source": "07_promotional_events.md",
+    "persona": "standard"
+  }
+]

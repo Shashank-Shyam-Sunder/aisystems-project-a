@@ -1,0 +1,47 @@
+[
+  {
+    "query": "Why can't I return the clearance item I bought? It's marked as 'Final Sale'!",
+    "expected_answer": "Final sale items are not eligible for return or exchange.",
+    "difficulty": "easy",
+    "category": "returns",
+    "expected_source": "07_promotional_events.md",
+    "persona": "frustrated",
+    "id": "07_promotional_events_frustrated_001"
+  },
+  {
+    "query": "What are the return conditions for promotional items? This 15-day limit is ridiculous!",
+    "expected_answer": "The return window is 15 calendar days from delivery, with a 10% restocking fee for all returns.",
+    "difficulty": "medium",
+    "category": "returns",
+    "expected_source": "07_promotional_events.md",
+    "persona": "frustrated",
+    "id": "07_promotional_events_frustrated_002"
+  },
+  {
+    "query": "Can you please explain why price matching is not available during sales? This makes no sense!",
+    "expected_answer": "Price matching is not available during or after promotional events.",
+    "difficulty": "hard",
+    "category": "pricing",
+    "expected_source": "07_promotional_events.md",
+    "persona": "frustrated",
+    "id": "07_promotional_events_frustrated_003"
+  },
+  {
+    "query": "When do the Diwali Dhamaka sales actually happen? I'm tired of guessing!",
+    "expected_answer": "Diwali Dhamaka sales occur in October/November and last for 5-7 days.",
+    "difficulty": "easy",
+    "category": "promotions",
+    "expected_source": "07_promotional_events.md",
+    "persona": "frustrated",
+    "id": "07_promotional_events_frustrated_004"
+  },
+  {
+    "query": "How can I cancel my order placed during a promotional event? This is urgent!",
+    "expected_answer": "You can cancel your order before shipment through the app or by contacting support.",
+    "difficulty": "medium",
+    "category": "orders",
+    "expected_source": "07_promotional_events.md",
+    "persona": "frustrated",
+    "id": "07_promotional_events_frustrated_005"
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "query": "What is the delivery time for Standard Shipping within India?",
+    "expected_answer": "5-7 business days.",
+    "difficulty": "easy",
+    "category": "shipping",
+    "expected_source": "03_shipping_policy.md",
+    "persona": "standard"
+  },
+  {
+    "query": "How much does Express Shipping cost for non-Premium members?",
+    "expected_answer": "₹199 on all orders.",
+    "difficulty": "medium",
+    "category": "shipping",
+    "expected_source": "03_shipping_policy.md",
+    "persona": "standard"
+  },
+  {
+    "query": "What should I do if my package arrives damaged?",
+    "expected_answer": "Report it within 48 hours with photographic evidence.",
+    "difficulty": "medium",
+    "category": "support",
+    "expected_source": "03_shipping_policy.md",
+    "persona": "standard"
+  },
+  {
+    "query": "Are there any additional charges for shipping to remote areas?",
+    "expected_answer": "Yes, a remote area surcharge of ₹149 may apply.",
+    "difficulty": "hard",
+    "category": "shipping",
+    "expected_source": "03_shipping_policy.md",
+    "persona": "standard"
+  },
+  {
+    "query": "What happens if my package is marked as delivered but I haven't received it?",
+    "expected_answer": "File a claim within 7 days for investigation.",
+    "difficulty": "hard",
+    "category": "support",
+    "expected_source": "03_shipping_policy.md",
+    "persona": "standard"
+  }
+]

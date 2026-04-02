@@ -1,0 +1,42 @@
+[
+  {
+    "query": "What is required to create an Acmera account?",
+    "expected_answer": "An email address, phone number, or Google/Apple sign-in.",
+    "difficulty": "easy",
+    "category": "account",
+    "expected_source": "10_account_management.md",
+    "persona": "standard"
+  },
+  {
+    "query": "What kind of authentication does Acmera use for account security?",
+    "expected_answer": "Two-factor authentication (2FA).",
+    "difficulty": "medium",
+    "category": "account",
+    "expected_source": "10_account_management.md",
+    "persona": "standard"
+  },
+  {
+    "query": "How can customers request a full export of their data?",
+    "expected_answer": "Through Account Settings or by contacting support.",
+    "difficulty": "medium",
+    "category": "account",
+    "expected_source": "10_account_management.md",
+    "persona": "standard"
+  },
+  {
+    "query": "What happens to customer data when an account is deleted?",
+    "expected_answer": "All order history, wallet balance, and Premium membership status are lost.",
+    "difficulty": "hard",
+    "category": "account",
+    "expected_source": "10_account_management.md",
+    "persona": "standard"
+  },
+  {
+    "query": "How can customers manage their marketing communication preferences?",
+    "expected_answer": "Through Account Settings → Notifications.",
+    "difficulty": "easy",
+    "category": "membership",
+    "expected_source": "10_account_management.md",
+    "persona": "standard"
+  }
+]

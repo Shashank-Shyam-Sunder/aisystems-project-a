@@ -42,11 +42,11 @@ SCRIPT_DIR = os.path.dirname(__file__)
 # =========================================================================
 
 
-def load_golden_dataset():
+def load_golden_dataset(dataset_path=None):
     """Load the golden dataset from JSON file."""
-    path = os.path.join(SCRIPT_DIR, "golden_dataset.json")
+    path = dataset_path or os.path.join(SCRIPT_DIR, "golden_dataset.json")
     if not os.path.exists(path):
-        print("No golden_dataset.json found. Create one first!")
+        print(f"No dataset found at {path}. Create one first!")
         return []
     with open(path) as f:
         return json.loads(f.read())
@@ -197,7 +197,7 @@ Expected Answer: {expected_answer}
 # EVAL RUNNER
 # =========================================================================
 
-def run_eval(save_baseline=False):
+def run_eval(save_baseline=False, dataset_path=None, output_tag=None):
     """
     Run the full evaluation:
     1. Load golden dataset
@@ -210,7 +210,7 @@ def run_eval(save_baseline=False):
     """
     from rag import ask
 
-    dataset = load_golden_dataset()
+    dataset = load_golden_dataset(dataset_path=dataset_path)
     results = []
     total = len(dataset)
 
@@ -219,7 +219,7 @@ def run_eval(save_baseline=False):
         category = entry["category"]
         expected_answer = entry["expected_answer"]
         expected_source = entry["expected_source"]
-        item_id = entry["id"]
+        item_id = entry.get("id") or f"auto_{index:03d}"
 
         print(f"[{index}/{total}] Processing {item_id} | category={category} | save_baseline={save_baseline}")
 
@@ -238,6 +238,7 @@ def run_eval(save_baseline=False):
             "id": item_id,
             "query": query,
             "category": category,
+            "difficulty": entry["difficulty"],
             "expected_source": expected_source,
             "expected_answer": expected_answer,
             "answer": answer,
@@ -252,7 +253,12 @@ def run_eval(save_baseline=False):
 
         print(f"Completed {item_id}")
 
-    output_path = os.path.join(SCRIPT_DIR, "eval_results.json")
+    if output_tag:
+        output_dir = os.path.join(os.path.dirname(SCRIPT_DIR), "synthetic_data")
+        os.makedirs(output_dir, exist_ok=True)
+        output_path = os.path.join(output_dir, f"eval_results_{output_tag}.json")
+    else:
+        output_path = os.path.join(SCRIPT_DIR, "eval_results.json")
     with open(output_path, "w") as f:
         json.dump(results, f, indent=2)
 
@@ -278,7 +284,10 @@ def run_eval(save_baseline=False):
     }
 
     if save_baseline:
-        baseline_path = os.path.join(SCRIPT_DIR, "baseline_scores.json")
+        if output_tag:
+            baseline_path = os.path.join(output_dir, f"baseline_scores_{output_tag}.json")
+        else:
+            baseline_path = os.path.join(SCRIPT_DIR, "baseline_scores.json")
         with open(baseline_path, "w") as f:
             json.dump(baseline_summary, f, indent=2)
 
@@ -350,7 +359,13 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--save-baseline", action="store_true")
+    parser.add_argument("--dataset")
+    parser.add_argument("--output-tag")
     args = parser.parse_args()
 
     print(f"Starting eval harness (save_baseline={args.save_baseline})")
-    run_eval(save_baseline=args.save_baseline)
+    run_eval(
+        save_baseline=args.save_baseline,
+        dataset_path=args.dataset,
+        output_tag=args.output_tag,
+    )

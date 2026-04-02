@@ -1,0 +1,37 @@
+[
+  {
+    "query": "What are the major seasonal sales mentioned in the Acmera Promotional Events Policy?",
+    "expected_answer": "Diwali Dhamaka, Republic Day Sale, Independence Day Sale, Year-End Clearance",
+    "difficulty": "easy",
+    "category": "Promotional Events",
+    "expected_source": "07_promotional_events.md"
+  },
+  {
+    "query": "How long do flash sales typically last and what discount range do they offer?",
+    "expected_answer": "6-24 hours, with discounts of 40-70% off",
+    "difficulty": "medium",
+    "category": "Promotional Events",
+    "expected_source": "07_promotional_events.md"
+  },
+  {
+    "query": "What is the return window for items purchased during promotional events?",
+    "expected_answer": "15 calendar days from delivery",
+    "difficulty": "medium",
+    "category": "Return Policy",
+    "expected_source": "07_promotional_events.md"
+  },
+  {
+    "query": "What is the restocking fee for returns of promotional items?",
+    "expected_answer": "10% restocking fee",
+    "difficulty": "easy",
+    "category": "Return Policy",
+    "expected_source": "07_promotional_events.md"
+  },
+  {
+    "query": "Can Premium members return items marked as 'Final Sale'?",
+    "expected_answer": "No, even Premium members cannot return 'Final Sale' items.",
+    "difficulty": "hard",
+    "category": "Return Policy",
+    "expected_source": "07_promotional_events.md"
+  }
+]

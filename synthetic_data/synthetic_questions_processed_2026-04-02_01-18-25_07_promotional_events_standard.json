@@ -1,0 +1,47 @@
+[
+  {
+    "query": "What are the main types of promotional events that Acmera runs?",
+    "expected_answer": "Seasonal Sales, Flash Sales, Clearance Events, and Premium-Exclusive Sales.",
+    "difficulty": "easy",
+    "category": "promotions",
+    "expected_source": "07_promotional_events.md",
+    "persona": "standard",
+    "id": "07_promotional_events_standard_001"
+  },
+  {
+    "query": "How long do Flash Sales typically last?",
+    "expected_answer": "6-24 hours.",
+    "difficulty": "medium",
+    "category": "promotions",
+    "expected_source": "07_promotional_events.md",
+    "persona": "standard",
+    "id": "07_promotional_events_standard_002"
+  },
+  {
+    "query": "What is the return window for items purchased during promotional events?",
+    "expected_answer": "15 calendar days from delivery.",
+    "difficulty": "medium",
+    "category": "returns",
+    "expected_source": "07_promotional_events.md",
+    "persona": "standard",
+    "id": "07_promotional_events_standard_003"
+  },
+  {
+    "query": "Can Premium members return items marked as 'Final Sale'?",
+    "expected_answer": "No, even Premium members cannot return 'Final Sale' items.",
+    "difficulty": "hard",
+    "category": "returns",
+    "expected_source": "07_promotional_events.md",
+    "persona": "standard",
+    "id": "07_promotional_events_standard_004"
+  },
+  {
+    "query": "What happens if an item purchased during a promotional event goes out of stock?",
+    "expected_answer": "It is removed from the sale and back-orders are not accepted.",
+    "difficulty": "medium",
+    "category": "promotions",
+    "expected_source": "07_promotional_events.md",
+    "persona": "standard",
+    "id": "07_promotional_events_standard_005"
+  }
+]

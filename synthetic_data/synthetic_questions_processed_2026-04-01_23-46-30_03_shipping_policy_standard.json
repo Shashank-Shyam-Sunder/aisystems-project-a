@@ -1,0 +1,37 @@
+[
+  {
+    "query": "What are the delivery times for Standard Shipping in India?",
+    "expected_answer": "Delivered within 5-7 business days.",
+    "difficulty": "easy",
+    "category": "Shipping Policy",
+    "expected_source": "03_shipping_policy.md"
+  },
+  {
+    "query": "Is Same-Day Delivery available for all customers?",
+    "expected_answer": "No, it is only available in select metro cities and costs ₹399 for all customers.",
+    "difficulty": "medium",
+    "category": "Shipping Policy",
+    "expected_source": "03_shipping_policy.md"
+  },
+  {
+    "query": "What is the additional cost for shipping to remote areas?",
+    "expected_answer": "Remote area surcharges of ₹149 may apply.",
+    "difficulty": "medium",
+    "category": "Shipping Policy",
+    "expected_source": "03_shipping_policy.md"
+  },
+  {
+    "query": "How can customers track their orders with Acmera?",
+    "expected_answer": "Customers can track their orders through the Acmera app or website, and receive updates via email and SMS.",
+    "difficulty": "hard",
+    "category": "Order Tracking",
+    "expected_source": "03_shipping_policy.md"
+  },
+  {
+    "query": "What should a customer do if their package is damaged upon arrival?",
+    "expected_answer": "Report it within 48 hours with photographic evidence for a replacement or refund.",
+    "difficulty": "hard",
+    "category": "Damaged or Lost Shipments",
+    "expected_source": "03_shipping_policy.md"
+  }
+]

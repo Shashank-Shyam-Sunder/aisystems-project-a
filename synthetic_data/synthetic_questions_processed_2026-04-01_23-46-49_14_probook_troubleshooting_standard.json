@@ -1,0 +1,37 @@
+[
+  {
+    "query": "What should I do if my ProBook won't turn on?",
+    "expected_answer": "Ensure it's charged, perform a hard reset, check the charging LED, and if the issue persists, contact support.",
+    "difficulty": "easy",
+    "category": "Troubleshooting",
+    "expected_source": "14_probook_troubleshooting.md"
+  },
+  {
+    "query": "How can I check the battery health of my ProBook?",
+    "expected_answer": "Go to Settings → System → Battery to check battery health.",
+    "difficulty": "medium",
+    "category": "Battery Issues",
+    "expected_source": "14_probook_troubleshooting.md"
+  },
+  {
+    "query": "What is Acmera's policy on dead pixels for warranty claims?",
+    "expected_answer": "Warranty claims are allowed if there are 5 or more dead pixels or 1 in the center third of the display.",
+    "difficulty": "hard",
+    "category": "Display Issues",
+    "expected_source": "14_probook_troubleshooting.md"
+  },
+  {
+    "query": "What steps should I take if my ProBook keyboard is not responding?",
+    "expected_answer": "Restart the laptop, check specific keys, clean with compressed air, or try an external USB keyboard.",
+    "difficulty": "medium",
+    "category": "Keyboard Issues",
+    "expected_source": "14_probook_troubleshooting.md"
+  },
+  {
+    "query": "When should I file a warranty claim for my ProBook?",
+    "expected_answer": "File a warranty claim after the return window if the product has a defect; repairs take 7-14 business days.",
+    "difficulty": "hard",
+    "category": "Warranty Information",
+    "expected_source": "14_probook_troubleshooting.md"
+  }
+]

@@ -2,13 +2,13 @@
   "total_queries": 65,
   "hit_rate": 1.0,
   "mean_mrr": 0.9274358974358974,
-  "mean_faithfulness": 5.0,
-  "mean_correctness": 4.3538461538461535,
+  "mean_faithfulness": 4.938461538461539,
+  "mean_correctness": 4.384615384615385,
   "per_category": {
     "returns": {
       "hit_rate": 1.0,
-      "mean_faithfulness": 5.0,
-      "mean_correctness": 4.333333333333333,
+      "mean_faithfulness": 4.666666666666667,
+      "mean_correctness": 4.0,
       "count": 6
     },
     "shipping": {
@@ -62,7 +62,7 @@
     "promotions": {
       "hit_rate": 1.0,
       "mean_faithfulness": 5.0,
-      "mean_correctness": 4.5,
+      "mean_correctness": 5.0,
       "count": 4
     },
     "sustainability": {
@@ -79,8 +79,8 @@
     },
     "support": {
       "hit_rate": 1.0,
-      "mean_faithfulness": 5.0,
-      "mean_correctness": 3.0,
+      "mean_faithfulness": 4.5,
+      "mean_correctness": 3.5,
       "count": 4
     },
     "troubleshooting": {
@@ -98,7 +98,7 @@
   },
   "worst_categories": [
     "support",
-    "sustainability",
-    "business"
+    "returns",
+    "sustainability"
   ]
 }

@@ -1,0 +1,42 @@
+[
+  {
+    "query": "What is the minimum spending required to achieve Premium Gold status?",
+    "expected_answer": "₹75,000 in a calendar year.",
+    "difficulty": "easy",
+    "category": "membership",
+    "expected_source": "02_premium_membership.md",
+    "persona": "standard"
+  },
+  {
+    "query": "How long do Premium Silver members have to return items?",
+    "expected_answer": "45 days.",
+    "difficulty": "medium",
+    "category": "returns",
+    "expected_source": "02_premium_membership.md",
+    "persona": "standard"
+  },
+  {
+    "query": "What benefit do Premium Gold members get regarding return shipping?",
+    "expected_answer": "Unlimited free return shipping.",
+    "difficulty": "medium",
+    "category": "returns",
+    "expected_source": "02_premium_membership.md",
+    "persona": "standard"
+  },
+  {
+    "query": "What is the average response time for Premium Silver members contacting support?",
+    "expected_answer": "Under 2 hours.",
+    "difficulty": "hard",
+    "category": "support",
+    "expected_source": "02_premium_membership.md",
+    "persona": "standard"
+  },
+  {
+    "query": "How soon do Premium members gain early access to seasonal sales?",
+    "expected_answer": "48 hours before general access.",
+    "difficulty": "easy",
+    "category": "promotions",
+    "expected_source": "02_premium_membership.md",
+    "persona": "standard"
+  }
+]

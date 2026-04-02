@@ -1,0 +1,37 @@
+[
+  {
+    "query": "What is the spending requirement to achieve Premium Gold status?",
+    "expected_answer": "₹75,000 in a calendar year.",
+    "difficulty": "easy",
+    "category": "Membership Benefits",
+    "expected_source": "02_premium_membership.md"
+  },
+  {
+    "query": "How long do Premium Silver members have to return a purchase?",
+    "expected_answer": "45 days.",
+    "difficulty": "medium",
+    "category": "Return and Refund Privileges",
+    "expected_source": "02_premium_membership.md"
+  },
+  {
+    "query": "What exclusive feature do Premium Gold members receive regarding support?",
+    "expected_answer": "Access to a direct phone line with senior support agents 24/7.",
+    "difficulty": "medium",
+    "category": "Priority Support",
+    "expected_source": "02_premium_membership.md"
+  },
+  {
+    "query": "During peak seasons, how are Premium members' orders prioritized?",
+    "expected_answer": "Premium members' orders are prioritized over standard orders in the fulfillment queue.",
+    "difficulty": "hard",
+    "category": "Shipping Benefits",
+    "expected_source": "02_premium_membership.md"
+  },
+  {
+    "query": "What happens to a member's status if they fall below the spending threshold after a year?",
+    "expected_answer": "They may be downgraded but retain current tier benefits for 90 days.",
+    "difficulty": "hard",
+    "category": "Membership Tiers",
+    "expected_source": "02_premium_membership.md"
+  }
+]

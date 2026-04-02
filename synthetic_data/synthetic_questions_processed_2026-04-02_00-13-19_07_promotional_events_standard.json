@@ -1,0 +1,42 @@
+[
+  {
+    "query": "What is the duration of seasonal sales at Acmera?",
+    "expected_answer": "5-7 days",
+    "difficulty": "easy",
+    "category": "promotions",
+    "expected_source": "07_promotional_events.md",
+    "persona": "standard"
+  },
+  {
+    "query": "Can you combine promotional discounts with coupon codes?",
+    "expected_answer": "No, unless explicitly stated.",
+    "difficulty": "medium",
+    "category": "pricing",
+    "expected_source": "07_promotional_events.md",
+    "persona": "standard"
+  },
+  {
+    "query": "What is the restocking fee for returns of promotional items?",
+    "expected_answer": "10%",
+    "difficulty": "medium",
+    "category": "returns",
+    "expected_source": "07_promotional_events.md",
+    "persona": "standard"
+  },
+  {
+    "query": "How long do standard customers have to request a price adjustment after a promotional purchase?",
+    "expected_answer": "7 days",
+    "difficulty": "hard",
+    "category": "pricing",
+    "expected_source": "07_promotional_events.md",
+    "persona": "standard"
+  },
+  {
+    "query": "Are premium members subject to the reduced return window for promotional purchases?",
+    "expected_answer": "No, they are exempt.",
+    "difficulty": "hard",
+    "category": "membership",
+    "expected_source": "07_promotional_events.md",
+    "persona": "standard"
+  }
+]

@@ -1,0 +1,37 @@
+[
+  {
+    "query": "How can I create an Acmera account?",
+    "expected_answer": "You can create an Acmera account using your email address, phone number, or Google/Apple sign-in.",
+    "difficulty": "easy",
+    "category": "Account Management",
+    "expected_source": "10_account_management.md"
+  },
+  {
+    "query": "What is required for order notifications and delivery coordination?",
+    "expected_answer": "A valid phone number is required for order notifications and delivery coordination.",
+    "difficulty": "medium",
+    "category": "Account Management",
+    "expected_source": "10_account_management.md"
+  },
+  {
+    "query": "What security measure does Acmera implement for account logins?",
+    "expected_answer": "Acmera uses two-factor authentication (2FA) for all account logins.",
+    "difficulty": "medium",
+    "category": "Account Security",
+    "expected_source": "10_account_management.md"
+  },
+  {
+    "query": "What happens if there are suspicious login attempts on my account?",
+    "expected_answer": "Suspicious login attempts trigger an automatic account lock, requiring identity verification to unlock.",
+    "difficulty": "hard",
+    "category": "Account Security",
+    "expected_source": "10_account_management.md"
+  },
+  {
+    "query": "Can I request my data to be deleted, and what happens if I do?",
+    "expected_answer": "Yes, you can request account deletion, which is permanent and irreversible, resulting in loss of order history and wallet balance.",
+    "difficulty": "hard",
+    "category": "Data and Privacy",
+    "expected_source": "10_account_management.md"
+  }
+]

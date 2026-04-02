@@ -1,0 +1,47 @@
+[
+  {
+    "query": "I heard there are special sales during festivals; can you tell me about those?",
+    "expected_answer": "Acmera has Seasonal Sales tied to festivals like Diwali, Republic Day, Independence Day, and Year-End Clearance, usually lasting 5-7 days.",
+    "difficulty": "easy",
+    "category": "promotions",
+    "expected_source": "07_promotional_events.md",
+    "persona": "mismatch",
+    "id": "07_promotional_events_mismatch_001"
+  },
+  {
+    "query": "What should I know about the flash sales that Acmera offers?",
+    "expected_answer": "Flash Sales last 6-24 hours with significant discounts (40-70%) on a limited number of products, announced 24 hours in advance.",
+    "difficulty": "medium",
+    "category": "promotions",
+    "expected_source": "07_promotional_events.md",
+    "persona": "mismatch",
+    "id": "07_promotional_events_mismatch_002"
+  },
+  {
+    "query": "Can you explain how returns work for items bought during promotional events?",
+    "expected_answer": "Items bought during promotions have a 15-day return window and a 10% restocking fee, with some items possibly marked as 'Final Sale' and non-returnable.",
+    "difficulty": "medium",
+    "category": "returns",
+    "expected_source": "07_promotional_events.md",
+    "persona": "mismatch",
+    "id": "07_promotional_events_mismatch_003"
+  },
+  {
+    "query": "Are Premium members treated differently when it comes to promotional buys?",
+    "expected_answer": "Yes, Premium members are exempt from the 15-day return window and restocking fee, and can return items under standard extended return windows.",
+    "difficulty": "hard",
+    "category": "membership",
+    "expected_source": "07_promotional_events.md",
+    "persona": "mismatch",
+    "id": "07_promotional_events_mismatch_004"
+  },
+  {
+    "query": "What happens if I try to order more than the limit during a promotion?",
+    "expected_answer": "Orders exceeding quantity limits may be partially or fully cancelled with a full refund, and back-orders are not accepted.",
+    "difficulty": "medium",
+    "category": "orders",
+    "expected_source": "07_promotional_events.md",
+    "persona": "mismatch",
+    "id": "07_promotional_events_mismatch_005"
+  }
+]

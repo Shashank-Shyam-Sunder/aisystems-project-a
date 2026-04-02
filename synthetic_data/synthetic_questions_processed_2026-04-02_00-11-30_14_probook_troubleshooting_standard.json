@@ -1,0 +1,42 @@
+[
+  {
+    "query": "What should I do if my Acmera ProBook won't turn on?",
+    "expected_answer": "Ensure the laptop is charged and perform a hard reset.",
+    "difficulty": "easy",
+    "category": "troubleshooting",
+    "expected_source": "14_probook_troubleshooting.md",
+    "persona": "standard"
+  },
+  {
+    "query": "How can I check if my ProBook's battery is eligible for a warranty replacement?",
+    "expected_answer": "Check battery health in Settings; if capacity is below 80%, it's eligible.",
+    "difficulty": "medium",
+    "category": "warranty",
+    "expected_source": "14_probook_troubleshooting.md",
+    "persona": "standard"
+  },
+  {
+    "query": "What is Acmera's policy on dead pixels for ProBook displays?",
+    "expected_answer": "Warranty claims are allowed for 5 or more dead pixels or 1 in the center third.",
+    "difficulty": "medium",
+    "category": "warranty",
+    "expected_source": "14_probook_troubleshooting.md",
+    "persona": "standard"
+  },
+  {
+    "query": "When should I contact support instead of returning my ProBook?",
+    "expected_answer": "If outside the return window, file a warranty claim through support.",
+    "difficulty": "hard",
+    "category": "support",
+    "expected_source": "14_probook_troubleshooting.md",
+    "persona": "standard"
+  },
+  {
+    "query": "What steps should I take if my ProBook's keyboard is not responding?",
+    "expected_answer": "Restart the laptop and check if it's a hardware issue; external USB keyboard can help.",
+    "difficulty": "medium",
+    "category": "troubleshooting",
+    "expected_source": "14_probook_troubleshooting.md",
+    "persona": "standard"
+  }
+]

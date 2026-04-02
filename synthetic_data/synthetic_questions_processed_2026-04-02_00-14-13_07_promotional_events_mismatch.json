@@ -1,0 +1,42 @@
+[
+  {
+    "query": "Can you tell me what types of sales happen during the holidays?",
+    "expected_answer": "Seasonal sales tied to festivals like Diwali, Republic Day, Independence Day, and Year-End Clearance.",
+    "difficulty": "easy",
+    "category": "promotions",
+    "expected_source": "07_promotional_events.md",
+    "persona": "mismatch"
+  },
+  {
+    "query": "What happens if I buy something during a flash sale and then see it cheaper a week later?",
+    "expected_answer": "You can request a one-time price adjustment if it's within 7 days of your purchase.",
+    "difficulty": "medium",
+    "category": "pricing",
+    "expected_source": "07_promotional_events.md",
+    "persona": "mismatch"
+  },
+  {
+    "query": "Is there a fee if I decide to return an item I bought on promotion?",
+    "expected_answer": "Yes, there is a 10% restocking fee for returns of promotional items.",
+    "difficulty": "medium",
+    "category": "returns",
+    "expected_source": "07_promotional_events.md",
+    "persona": "mismatch"
+  },
+  {
+    "query": "Are there any special sales that only premium members can access?",
+    "expected_answer": "Yes, Premium-Exclusive Sales are available only to Premium members with exclusive pricing.",
+    "difficulty": "hard",
+    "category": "membership",
+    "expected_source": "07_promotional_events.md",
+    "persona": "mismatch"
+  },
+  {
+    "query": "What should I do if I want to cancel an order from a promotional event?",
+    "expected_answer": "You can cancel the order before shipment for a full refund through the app or by contacting support.",
+    "difficulty": "medium",
+    "category": "orders",
+    "expected_source": "07_promotional_events.md",
+    "persona": "mismatch"
+  }
+]

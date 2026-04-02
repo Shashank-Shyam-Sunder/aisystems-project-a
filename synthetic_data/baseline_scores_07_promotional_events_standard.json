@@ -1,0 +1,38 @@
+{
+  "total_queries": 5,
+  "hit_rate": 1.0,
+  "mean_mrr": 0.9,
+  "mean_faithfulness": 5.0,
+  "mean_correctness": 3.4,
+  "per_category": {
+    "promotions": {
+      "hit_rate": 1.0,
+      "mean_faithfulness": 5.0,
+      "mean_correctness": 3.0,
+      "count": 1
+    },
+    "pricing": {
+      "hit_rate": 1.0,
+      "mean_faithfulness": 5.0,
+      "mean_correctness": 4.0,
+      "count": 2
+    },
+    "returns": {
+      "hit_rate": 1.0,
+      "mean_faithfulness": 5.0,
+      "mean_correctness": 3.0,
+      "count": 1
+    },
+    "membership": {
+      "hit_rate": 1.0,
+      "mean_faithfulness": 5.0,
+      "mean_correctness": 3.0,
+      "count": 1
+    }
+  },
+  "worst_categories": [
+    "promotions",
+    "returns",
+    "membership"
+  ]
+}
