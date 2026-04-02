@@ -8,3 +8,6 @@ __pycache__/
 .idea
 scripts/golden_dataset_merge.py
 scripts/new_entries.json
+~$*.doc*
+~$*.xlsx
+~$*.ppt*
